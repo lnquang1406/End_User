@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-         <meta charset="utf-8" />
+        <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
@@ -26,13 +26,11 @@
         <script src="https://code.jquery.com/jquery-latest.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-      
-
 
     </head>
     <body id="page-top">
     <!-- Navigation-->
-    <div class="d-flex justify-content-end" id="top">            
+        <div class="d-flex justify-content-end" id="top">            
          <ul class="nav nav-pills nav-fill">
             <li class="nav-item align-self-center">
               <a class="nav-link text-dark" href="#" >Feedback</a>
@@ -197,10 +195,9 @@
     <!-- Content -->
 
 
-
-
-<!-- Level 4 -->
-     <nav aria-label="breadcrumb" class="main-breadcrumb container p-0 mt-4">
+    <!-- Level 3 -->
+    <div class="container p-0 my-4">
+        <nav aria-label="breadcrumb" class="main-breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="Level 1.html">Level 1</a></li>
               <li class="breadcrumb-item"><a href="level 2.html">Level 2</a></li>
@@ -208,10 +205,31 @@
               <li class="breadcrumb-item active" aria-current="page">Level 4</li>
             </ol>
           </nav>
-    <div class="container px-0 py-2 bg-light mb-4">
-
+        <div class="card bg-light mb-3" >
+          <div class="card-body">
+          <h5><b>Hoạt động Xuân tình nguyện</b></h5>
+          <ol>
+            <h6><b><li>Lorem ipsum dolor sit amet,</li></b></h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. </p>
+            <h6><b><li>Lorem ipsum dolor sit amet,</li></b></h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. </p>
+            <h6><b><li>Lorem ipsum dolor sit amet,</li></b></h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. </p>
+            </ol>
+          </div>
+        </div> 
+<!-- Chi tiết HĐ -->
         
-        <div class="card w-70 m-4">
+         <div class="card w-100 my-3">
             <h4 class="card-header-lv3">Kế hoạch</h4>
           <div class="card-body p-0 mt-2">
             <div class="row">
@@ -229,86 +247,109 @@
             <a href="#" class="maunop">Tải mẫu văn bản <i class="far fa-file-alt"></i></a>
             </div>
           </div>
+          <div class="row mb-2">
+            <div class="col-9 ">
+                 <b class="linknop"><a href="level 5.html"><i class="fas fa-file-upload "></i>   Nộp tại đây</a></b>
+            </div> 
+            <div class="col-3 d-flex justify-content-center">
+                <button type="button" class="statussucces" value="succes"  disabled>Duyệt thành công</button>
+            </div>
+          </div>
+          </div>    
+        </div>   
+<!--  -->
+       <div class="card w-100 my-3">
+            <h4 class="card-header-lv3">Kế hoạch</h4>
+          <div class="card-body p-0 mt-2">
+            <div class="row">
+            <div class="col-10 textlv3">
+                <ul class="list"><b>Mục đích:</b>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</li>
+                </ul>
+                <ul class="list"><b>Nội dung yêu cầu:</b> 
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                </ul>
+            </div>
+            <div class="col"> <br>
+            <a href="#" class="maunop">Tải mẫu văn bản <i class="far fa-file-alt"></i></a>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-9 ">
+                 <b class="linknop"><a href="level 5.html" ><i class="fas fa-file-upload "></i>   Nộp tại đây</a></b>
+            </div> 
+            <div class="col-3 d-flex justify-content-center">
+                <button type="button" class="statusdanger" value="danger" disabled>Duyệt không thành công</button>
+            </div>
+          </div>
           </div>    
         </div> 
-
-        <div class="card w-80 m-4 bg-white p-4">
-          <div class="card-body">
-                    
-            <form action="/action_page.php">
-                <div class="form-group row ">
-                  <label class="col-2">Trạng thái:</label>
-                  <button type="button" class="status" disabled>Duyệt không thành công</button>
-                </div>
-                
-                <div class="form-group row my-4">
-                  <label class="col-2" for="filetype">Loại văn bản:</label>
-                  <select class="form-select col-3" aria-label="Default select example">
-                      <option selected>Chọn loại văn bản</option>
-                      <option value="1">Kế Hoạch</option>
-                      <option value="2">Ấn phẩm</option>
-                      <option value="3">Hợp đồng</option>
-                    </select>
-                </div>
-                
-                <div class="form-group row my-4">
-                  <label class="col-2" for="dtlpername">Tiêu đề tập tin:</label>
-                  <input type="text" class="form-control col-6" id="dtlpername" name="dtlpername" placeholder="Xuân tình nguyện">
-                </div>
-                
-                <div class="form-group row my-4">
-                  <label class="col-2" for="enable">Mô tả ngắn:</label>
-                  <textarea class="form-control col-8" aria-label="With textarea" id="dtlpername" name="dtlpername"></textarea>
-                </div>
-                
-                <div class="form-group row my-4 mb-4">
-                  <label class="col-2" for="fileupload" >Nộp nập tin:</label>
-                  <input type="file" class="col-6" id="fileupload" name="fileupload" accept=".xlsx,.xls,image/*,.doc, .docx,.txt,.pdf">
-                </div>
-
-                <div class="d-flex justify-content-center mt-4">
-                <button type="submit" class="btnsublv4">Gửi duyệt</button></div>
-            </form>  
-         </div>
+ <!--  -->
+      <div class="card w-100 my-3">
+            <h4 class="card-header-lv3">Kế hoạch</h4>
+          <div class="card-body p-0 mt-2">
+            <div class="row">
+            <div class="col-10 textlv3">
+                <ul class="list"><b>Mục đích:</b>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</li>
+                </ul>
+                <ul class="list"><b>Nội dung yêu cầu:</b> 
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                </ul>
+            </div>
+            <div class="col"> <br>
+            <a href="#" class="maunop">Tải mẫu văn bản <i class="far fa-file-alt"></i></a>
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-9 ">
+                 <b class="linknop"><a href="level 5.html" ><i class="fas fa-file-upload "></i>   Nộp tại đây</a></b>
+            </div> 
+            <div class="col-3 d-flex justify-content-center">
+                <button type="button" class="statuswarning" value="warning" disabled>Chờ duyệt</button>
+            </div>
+          </div>
+          </div>    
         </div>
-        <div class="card p-3 m-4">
-         <h3 class="cmt"><b>Bình luận/ trao đổi</b></h3>
-        <ul class="textlv3 mb-0"> 3 bình luận</ul>
-            <div class="form-group row m-0 ">
-                <textarea class="form-control m-4 col-8" aria-label="With textarea" id="cmt" name="cmt" placeholder="Ghi bình luận"></textarea>
-                <div class="col-3 d-flex align-items-center"><button type="submit" class="btncmt">Gửi bình luận</button></div>
-            </div>
 
-            <div class="card mx-4 my-2">
-              <div class="card-body bg-light py-2">
-                <div class="card-title"><h6 class="cmt"><i class="far fa-user-circle"></i><b>  Người nào đó</b></h6></div>
-                <p>This is some text within a card body.</p>
-              </div>
+ <!--  -->
+        <div class="card w-100 my-3">
+            <h4 class="card-header-lv3">Kế hoạch</h4>
+          <div class="card-body p-0 mt-2">
+            <div class="row">
+            <div class="col-10 textlv3">
+                <ul class="list"><b>Mục đích:</b>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</li>
+                </ul>
+                <ul class="list"><b>Nội dung yêu cầu:</b> 
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                </ul>
             </div>
-             <div class="card mx-4 my-2">
-              <div class="card-body bg-light py-2">
-                <div class="card-title"><h6 class="cmt"><i class="far fa-user-circle"></i><b>  Người nào đó</b></h6></div>
-                <p>This is some text within a card body.</p>
-              </div>
+            <div class="col"> <br>
+            <a href="#" class="maunop">Tải mẫu văn bản <i class="far fa-file-alt"></i></a>
             </div>
-             <div class="card mx-4 my-2">
-              <div class="card-body bg-light py-2">
-                <div class="card-title"><h6 class="cmt"><i class="far fa-user-circle"></i><b>  Người nào đó</b></h6></div>
-                <p>This is some text within a card body.</p>
-              </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-9 ">
+                 <b class="linknop"><a href="level 5.html" ><i class="fas fa-file-upload "></i>   Nộp tại đây</a></b>
+            </div> 
+            <div class="col-3 d-flex justify-content-center">
+                <button type="button" class="statuswhite" value="white" disabled>Trống</button>
             </div>
+          </div>
+          </div>    
         </div>
-    </div>
 
-
-
-
-
-
-
+</div>
        
         <!-- Footer-->
-       <footer class="footer py-3" id="footer">
+      <footer class="footer py-3" id="footer">
             <div class="container">
                 <div class="float-none"><a href="#"><img src="assets/img/logo_footer.png" width="350px"></a></div>
                 
@@ -346,7 +387,7 @@
         </div>
 
 
-      
+
 
        
         <!-- Bootstrap core JS-->

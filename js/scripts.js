@@ -73,13 +73,35 @@ $(function(){
         });
 
 
+
+
 function showform()
 {
   $(".form-order").slideToggle();
 }
 
 
-// window.onload=function(){
-  
-//   showform();
+function jslv5(){
+
+if (document.getElementById("lv5").value == "succes") {
+  $(".sublv5").hide();
+  $(".editlv5").hide();
+}
+else if (document.getElementById("lv5").value == "white"){
+  $(".sublv5").show();
+  $(".editlv5").hide();
+}
+else{
+  $(".sublv5").hide();
+  $(".editlv5").show();
+}
+}
+
+window.onload=function(){
+  jslv5();
+  showform();
+}
+// function hide()
+// {
+//   $(".editlv5").slideToggle();
 // }

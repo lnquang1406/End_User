@@ -11175,7 +11175,7 @@ li, .li{
 }
 
 .btnaddlv2{
-  width: 110px;
+  width: 120px;
   font-family: Mulish , sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -11338,7 +11338,7 @@ vertical-align: middle;
 
 color: #4B729C;
 }
-.status{
+.statussucces{
   width: auto; 
    font-family: Mulish , sans-serif;
   font-style: normal;
@@ -11355,7 +11355,66 @@ color: #4B729C;
   border-radius: 20px;
 
 
-  background: red;
+  background: #28a745;
+}
+
+.statusdanger{
+  width: auto; 
+   font-family: Mulish , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: ;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 15px;
+  border: 0px;
+  border-radius: 20px;
+
+
+  background: #dc3545;
+}
+
+.statuswarning{
+  width: auto; 
+   font-family: Mulish , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: ;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 15px;
+  border: 0px;
+  border-radius: 20px;
+
+
+  background:#ffc107;
+}
+.statuswhite{
+  width: auto; 
+  font-family: Mulish , sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: ;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  padding: 8px 15px;
+  border-radius: 20px;
+
+
+  background:#6c757d;
 }
 
 
@@ -11379,6 +11438,15 @@ color: #4B729C;
   border-radius: 15px;
 
 }
+.sublv5{
+  display: flex;
+  justify-content: center;
+}
+.editlv5{
+  display: flex;
+  justify-content: center;
+}
+
 .btnsublv4:hover {     
     background-color:#007bff; 
     transform: scale(1.015);   
